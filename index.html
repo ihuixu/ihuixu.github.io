@@ -5,7 +5,7 @@
 		<title>@ihuixu</title>
 		<meta name="author" content="HuiXu" />
 		<meta name="keywords" content="HIGO,美丽说,前端工程师,@ihuixu" />	
-		<meta name="description" content="HIGO,美丽说,前端工程师,@ihuixu,前端开发,web开发,html5开发" />
+		<meta name="description" content="HIGO,美丽说,前端工程师,@ihuixu,前端开发,web开发,html5开发,nodejs开发" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
@@ -55,49 +55,10 @@
 			})
 			</script>
 
-			<h3>Comment</h3>
-			<ul id="comments">
-				<li v-for="comment in comments">
-					<a :href="comment.html_url">{{comment.body}}</a>
-				</li>
-			</ul>
-
-			<script>
-
-			new Vue({
-				el : '#comments'
-				, data : {
-					comments : []
-				}
-				, created : function(){
-
-					var url = 'https://api.github.com/repos/ihuixu/ihuixu.github.io/issues/comments'
-
-					this.$http.get(url).then(function(res){
-
-						var comments = []
-
-						for(var i in res.data){
-							var data = res.data[i]
-							comments.push({
-								body : data.body
-								, html_url : data.html_url
-								, updated_at : data.updated_at
-							})
-						}
-
-						this.$set('comments', comments)
-
-					}, function(){
-
-					})
-				}
-			})
-
-			</script>
-
+			
+			<h3>Weibo</h3>
+			<iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=1&speed=0&skin=5&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=1231396961&verifier=d18450f9&colors=fff,ffffff,333,ff6666,fff&dpc=1"></iframe>
 		</div>
-
 
 	</body>
 </html>
