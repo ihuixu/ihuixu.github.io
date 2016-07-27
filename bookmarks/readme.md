@@ -26,7 +26,7 @@
 * [组件 - vue.js](http://cn.vuejs.org/guide/components.html#编写可复用组件)
 * [列表渲染 - vue.js](http://cn.vuejs.org/guide/list.html)
 * [列表渲染 - vue.js](http://cn.vuejs.org/guide/list.html#问题)
-* [](http://vuejs.org.cn/api/#vm-remove)
+* [vue.js #vm-remove](http://vuejs.org.cn/api/#vm-remove)
 * [vue 源码分析之如何实现 observer 和 watcher](https://gold.xitu.io/entry/56e3b8e975c4cd1889e319e1)
 
 ### svg
