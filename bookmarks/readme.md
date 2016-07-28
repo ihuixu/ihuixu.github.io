@@ -30,6 +30,12 @@
 * [vue.js #vm-remove](http://vuejs.org.cn/api/#vm-remove)
 * [vue 源码分析之如何实现 observer 和 watcher](https://gold.xitu.io/entry/56e3b8e975c4cd1889e319e1)
 
+### webp
+
+* [WebP 探寻之路 - 腾讯ISUX – 社交用户体验设计](http://isux.tencent.com/introduction-of-webp.html)
+* [iSparta－PNG压缩与格式转换工具](http://isparta.github.io/)
+* [WebPJS - Google s new image format WebP for not supported browsers (with alpha-channel)](http://webpjs.appspot.com/)
+
 ### svg
 
 * [Snap.svg-SVG实战学习必修课-实例与文档讲解 « 张鑫旭-鑫空间-鑫生活](http://www.zhangxinxu.com/wordpress/2014/01/snap-svg-study-demo-docs/)
@@ -209,7 +215,7 @@
 * [express4.x新特性以及如何从3.x升级到4.x](http://jser.me/2014/03/18/express4.x%E6%96%B0%E7%89%B9%E6%80%A7%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E4%BB%8E3.x%E5%8D%87%E7%BA%A7%E5%88%B04.x.html)
 * [深入理解 Express.js - 博客 - 伯乐在线](http://blog.jobbole.com/41325/)
 * [Express - api参考](http://expressjs.jser.us/api.html)
-* [Changed `doctype 5` to `doctype html&#39; because the former was deprecated on Jade version 1.0.0. by yosssi · Pull Request #1875 · visionmedia/express](https://github.com/visionmedia/express/pull/1875)
+* [Changed `doctype 5` to `doctype html` because the former was deprecated on Jade version 1.0.0. by yosssi · Pull Request #1875 · visionmedia/express](https://github.com/visionmedia/express/pull/1875)
 * [parsing - How can I render markdown in express.js jade template? - Stack Overflow](http://stackoverflow.com/questions/6358166/how-can-i-render-markdown-in-express-js-jade-template)
 * [Express - 中文文档( node.js Web应用框架 )](http://expressjs.jser.us/)
 * [nodejs express模版引擎ejs的使用 - 雨中漫步 - 博客频道 - CSDN.NET](http://blog.csdn.net/lisownjay/article/details/16952723)
