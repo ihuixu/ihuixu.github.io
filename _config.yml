@@ -25,6 +25,7 @@ github_username:  ihuixu
 # Build settings
 markdown: kramdown
 theme: minima
+# theme: chalk 
 gems:
   - jekyll-feed
 exclude:
