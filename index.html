@@ -17,7 +17,7 @@
 			<h3>Blog</h3>
 			<ul id="issues">
 				<li v-for="issue in issues">
-					<h4><a :href="issue.html_url">{{issue.title}}</a></h4>
+					<a :href="issue.html_url">{{issue.title}}</a>
 				</li>
 			</ul>
 
@@ -54,6 +54,8 @@
 				}
 			})
 			</script>
+
+			<h3><a href="/bookmarks">Bookmarks</a></h3>
 
 		</div>
 

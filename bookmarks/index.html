@@ -1,0 +1,26 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<title>@ihuixu</title>
+		<meta name="author" content="HuiXu" />
+		<meta name="keywords" content="HIGO,美丽说,前端工程师,@ihuixu" />	
+		<meta name="description" content="HIGO,美丽说,前端工程师,@ihuixu,前端开发,web开发,html5开发,nodejs开发" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+  </head>
+	<body>
+
+		<div class="container" id="container">
+		</div>
+
+		<script>
+			$.get('https://ihuixu.github.io/bookmarks/readme.md', function(res){
+				$('#container').html(marked(res))
+			})
+		</script>
+
+	</body>
+</html>
