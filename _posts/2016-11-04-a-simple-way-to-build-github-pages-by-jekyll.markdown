@@ -5,7 +5,7 @@ date:   2016-11-04 14:54:02 +0800
 categories: jekyll and github pages
 ---
 
-## e.g
+## e.g.
 username = ihuixu
 
 1.new folder.
