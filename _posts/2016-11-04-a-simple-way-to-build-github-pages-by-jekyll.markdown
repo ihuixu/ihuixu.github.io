@@ -31,3 +31,14 @@ git remote add origin https://github.com/ihuixu/ihuixu.github.io.git
 git push -u origin master
 {% endhighlight %}
 
+## ps
+1.check ruby's version
+
+{% highlight ruby %}
+curl -L get.rvm.io | bash -s stable
+source ~/.profile
+
+rvm list known
+rvm install 2.3
+{% endhighlight %}
+
