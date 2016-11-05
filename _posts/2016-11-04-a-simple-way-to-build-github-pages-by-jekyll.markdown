@@ -32,13 +32,21 @@ git push -u origin master
 {% endhighlight %}
 
 ## ps
-1.check ruby's version
+1.if you want to change the theme of the site, you may check the ruby's version, and install bundler again.
+
+`vi Gemfile`
+{% highlight ruby %}
+gem 'themename'
+{% endhighlight %}
+
+`vi _config.yml`
+{% highlight ruby %}
+theme: themename
+{% endhighlight %}
 
 {% highlight ruby %}
-curl -L get.rvm.io | bash -s stable
-source ~/.profile
-
-rvm list known
-rvm install 2.3
+ruby -v
+rvm install ruby-2.2.2
+gem install jekyll bundler
 {% endhighlight %}
 
