@@ -32,7 +32,14 @@ git push -u origin master
 {% endhighlight %}
 
 ## ps
-1.if you want to change the theme of the site, you may check the ruby's version, and install bundler again.
+1. How to start server in local.
+
+{% highlight ruby %}
+bundle install
+bundle exec jekyll serve
+{% endhighlight %}
+
+2.How to change the theme of the site.
 
 `vi Gemfile`
 {% highlight ruby %}
@@ -44,9 +51,16 @@ gem 'themename'
 theme: themename
 {% endhighlight %}
 
+3.You may check the ruby's version, and install bundler again.
+
 {% highlight ruby %}
 ruby -v
 rvm install ruby-2.2.2
-gem install jekyll bundler
 {% endhighlight %}
+
+{% highlight ruby %}
+gem install jekyll bundler
+bundle install
+{% endhighlight %}
+
 
