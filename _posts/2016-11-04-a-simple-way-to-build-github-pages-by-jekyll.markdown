@@ -32,7 +32,7 @@ git push -u origin master
 {% endhighlight %}
 
 ## ps
-1. How to start server in local.
+1.How to start server in local.
 
 {% highlight ruby %}
 bundle install
