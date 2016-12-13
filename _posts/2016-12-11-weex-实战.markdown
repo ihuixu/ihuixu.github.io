@@ -13,10 +13,14 @@ categories: weex
 ### 最佳实践
 
 1. 安装 weexpack
+
 ```javascript
 npm install -g weexpack
 ```
+
+
 2. 新建项目
+
 ```javascript
 weexpack init [name]
 cd [name]
@@ -24,6 +28,7 @@ npm install
 ```
 
 ### 如何开发模式
+
 1. package.json中的三种命令
 
 ```javascript
@@ -41,9 +46,11 @@ npm run dev
 ```
 
 2. 在设备上访问
+
 ```javascript
 weex src/app.we --qr
 ```
+
 --qr 展示二维码，可使用weexplayground进行扫码访问
 
 3. 浏览器上访问
@@ -56,8 +63,11 @@ npm run serve
 
 ### 如何debug
 
-2. 单文件模式
+1. 浏览器：使用chrome development tools
+2. 客户端：
 
-3. debug模式
 ```javascript
+weex debug
+```
+
 
