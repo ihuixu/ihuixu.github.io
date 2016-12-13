@@ -10,22 +10,29 @@ categories: weex
 
 ## 一、快速开始
 
-### 最佳实践：
+### 最佳实践
+
 1. 安装 weexpack
-``````
+```javascript
 npm install -g weexpack
-``````
+```
 2. 新建项目
-``````
+```javascript
 weexpack init [name]
-``````
+```
 
 ## 二、开发模式
-1. package.json中包含三种命令：
-``````
+1. package.json中的三种命令
+
+```javascript
 "scripts": {
     "build": "webpack",
     "dev": "webpack --watch",
     "serve": "serve -p 8080"
   }
-``````
+```
+
+执行
+```javascript
+npm run dev
+```即可开始开发模式
