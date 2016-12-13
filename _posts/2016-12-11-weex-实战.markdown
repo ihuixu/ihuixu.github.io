@@ -1,0 +1,31 @@
+---
+layout: post
+title:  weex-实战
+date:   2016-12-11 14:54:02 +0800
+categories: weex
+---
+
+
+这几天在家开始尝试使用weex开发小app，总结一下：
+
+## 一、快速开始
+
+### 最佳实践：
+1. 安装 weexpack
+``````
+npm install -g weexpack
+``````
+2. 新建项目
+``````
+weexpack init [name]
+``````
+
+## 二、开发模式
+1. package.json中包含三种命令：
+``````
+"scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "serve": "serve -p 8080"
+  }
+``````
