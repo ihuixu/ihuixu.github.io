@@ -77,4 +77,10 @@ npm run serve
 weex debug
 ```
 
+### 参考资料
 
+* http://blog.csdn.net/hopeyouknow/article/details/51800715
+
+* https://github.com/h5weex/h5weex-books/blob/master/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E7%BA%BF%E4%B8%8A%E8%B0%83%E8%AF%95.md
+
+* https://github.com/weexteam/article/issues/32
