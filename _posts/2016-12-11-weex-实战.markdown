@@ -12,14 +12,20 @@ categories: weex
 
 ### 最佳实践
 
-1.安装 weexpack
+1.安装weex-toolkit
+
+```javascript
+npm install  -g  weex-toolkit
+```
+
+2.安装 weexpack
 
 ```javascript
 npm install -g weexpack
 ```
 
 
-2.新建项目
+3.新建项目
 
 ```javascript
 weexpack init [name]
