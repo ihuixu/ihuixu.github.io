@@ -6,7 +6,7 @@ categories: weex
 ---
 
 
-这几天在家开始尝试使用weex开发小app，总结一下：
+这几天尝试用weex开发小app，总结一下：
 
 ## 快速开始
 
