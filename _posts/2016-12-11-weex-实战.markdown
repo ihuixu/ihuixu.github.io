@@ -64,6 +64,7 @@ npm run serve
 ### 如何debug
 
 1.浏览器：使用chrome development tools
+
 2.客户端：
 
 ```javascript
